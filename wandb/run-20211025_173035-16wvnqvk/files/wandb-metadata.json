@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.11.0-38-generic-x86_64-with-glibc2.10",
+    "python": "3.8.8",
+    "heartbeatAt": "2021-10-25T12:00:40.168892",
+    "startedAt": "2021-10-25T12:00:35.546465",
+    "docker": null,
+    "gpu": "GeForce RTX 3060",
+    "gpu_count": 1,
+    "cpu_count": 6,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/home/indika/.local/share/jupyter/runtime/kernel-e65a1e1d-4910-4fb2-911c-78182db0eb2a.json"
+    ],
+    "state": "running",
+    "program": "00.ipynb",
+    "root": "/media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2",
+    "host": "programmer-rd-ai",
+    "username": "indika",
+    "executable": "/media/indika/Sync/anaconda3/bin/python"
+}

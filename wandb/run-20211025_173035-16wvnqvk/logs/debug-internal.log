@@ -1,0 +1,1493 @@
+2021-10-25 17:30:36,351 INFO    MainThread:71796 [internal.py:wandb_internal():88] W&B internal server running at pid: 71796, started at: 2021-10-25 17:30:36.351438
+2021-10-25 17:30:36,353 INFO    WriterThread:71796 [datastore.py:open_for_write():77] open: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/run-16wvnqvk.wandb
+2021-10-25 17:30:36,353 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: check_version
+2021-10-25 17:30:36,354 DEBUG   SenderThread:71796 [sender.py:send():185] send: header
+2021-10-25 17:30:36,354 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: check_version
+2021-10-25 17:30:36,833 DEBUG   SenderThread:71796 [sender.py:send():185] send: run
+2021-10-25 17:30:37,404 INFO    SenderThread:71796 [dir_watcher.py:__init__():169] watching files in: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files
+2021-10-25 17:30:37,404 INFO    SenderThread:71796 [sender.py:_start_run_threads():768] run started: 16wvnqvk with start time 1635163235
+2021-10-25 17:30:37,404 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:37,405 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:37,405 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: run_start
+2021-10-25 17:30:38,412 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_created():217] file/dir created: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:30:40,168 DEBUG   HandlerThread:71796 [meta.py:__init__():40] meta init
+2021-10-25 17:30:40,168 DEBUG   HandlerThread:71796 [meta.py:__init__():54] meta init done
+2021-10-25 17:30:40,168 DEBUG   HandlerThread:71796 [meta.py:probe():212] probe
+2021-10-25 17:30:40,175 DEBUG   HandlerThread:71796 [git.py:repo():33] git repository is invalid
+2021-10-25 17:30:40,175 DEBUG   HandlerThread:71796 [meta.py:_save_code():90] save code
+2021-10-25 17:30:40,175 WARNING HandlerThread:71796 [meta.py:_save_code():92] unable to save code -- program entry not found
+2021-10-25 17:30:40,175 DEBUG   HandlerThread:71796 [meta.py:_save_pip():58] save pip
+2021-10-25 17:30:40,175 DEBUG   HandlerThread:71796 [meta.py:_save_pip():72] save pip done
+2021-10-25 17:30:40,175 DEBUG   HandlerThread:71796 [meta.py:_save_conda():79] save conda
+2021-10-25 17:30:40,411 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_created():217] file/dir created: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/conda-environment.yaml
+2021-10-25 17:30:40,412 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_created():217] file/dir created: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/requirements.txt
+2021-10-25 17:30:42,412 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_created():217] file/dir created: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:30:45,345 DEBUG   HandlerThread:71796 [meta.py:_save_conda():87] save conda done
+2021-10-25 17:30:45,345 DEBUG   HandlerThread:71796 [meta.py:probe():250] probe done
+2021-10-25 17:30:45,348 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-25 17:30:45,349 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: stop_status
+2021-10-25 17:30:45,413 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/conda-environment.yaml
+2021-10-25 17:30:45,413 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:30:45,413 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_created():217] file/dir created: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-metadata.json
+2021-10-25 17:30:45,853 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:45,854 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:45,856 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:45,856 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:45,856 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:45,857 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:45,857 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:45,857 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:45,857 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:45,857 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:45,857 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:45,857 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:45,858 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:45,858 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:45,858 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:45,858 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:45,858 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:45,858 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:45,858 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:45,858 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:45,858 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:45,859 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:45,859 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:45,859 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:45,859 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:45,859 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:45,859 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:45,859 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:45,859 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:45,859 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:45,860 DEBUG   SenderThread:71796 [sender.py:send():185] send: files
+2021-10-25 17:30:45,860 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-metadata.json with policy now
+2021-10-25 17:30:45,860 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:45,860 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:45,860 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:45,860 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:45,860 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:45,861 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:46,134 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:46,134 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:46,134 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:46,136 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:46,136 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:46,136 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:46,391 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:46,391 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:46,391 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:46,413 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:30:46,430 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:46,430 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:46,430 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:46,840 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:46,840 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:46,840 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:46,841 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:46,841 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:46,841 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:47,107 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:47,107 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:47,107 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:47,148 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:47,149 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:47,149 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:47,159 INFO    Thread-11 :71796 [upload_job.py:push():137] Uploaded file /tmp/tmprpa_u22swandb/1w3i5sz5-wandb-metadata.json
+2021-10-25 17:30:47,414 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:30:47,414 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:30:47,601 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:47,601 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:47,602 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:47,604 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:47,604 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:47,604 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:47,885 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:47,885 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:47,887 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:47,926 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:47,926 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:47,926 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:48,363 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:48,364 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:48,364 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:48,366 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:48,366 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:48,367 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:48,414 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:30:48,641 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:48,642 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:48,642 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:48,684 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:48,684 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:48,684 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:49,108 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:49,108 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:49,109 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:49,111 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:49,111 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:49,111 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:49,376 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:49,376 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:49,376 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:49,414 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:30:49,414 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:30:49,415 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:49,416 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:49,416 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:49,825 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:49,825 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:49,826 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:49,826 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:49,827 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:49,827 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:50,080 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:50,081 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:50,084 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:50,121 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:50,121 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:50,121 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:50,414 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:30:50,555 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:50,555 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:50,555 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:50,557 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:50,557 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:50,557 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:50,812 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:50,812 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:50,812 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:50,854 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:50,854 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:50,854 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:51,283 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:51,284 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:51,284 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:51,285 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:51,285 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:51,286 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:51,415 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:30:51,415 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:30:51,539 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:51,539 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:51,539 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:51,576 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:51,576 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:51,577 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:51,991 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:51,991 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:51,992 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:51,993 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:51,993 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:51,993 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:52,251 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:52,251 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:52,254 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:52,289 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:52,289 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:52,289 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:52,415 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:30:52,739 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:52,739 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:52,739 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:52,740 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:52,740 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:52,741 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:53,009 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:53,009 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:53,009 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:53,046 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:53,047 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:53,047 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:53,416 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:30:53,416 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:30:53,488 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:53,489 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:53,489 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:53,490 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:53,491 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:53,491 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:53,909 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:53,909 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:53,909 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:53,951 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:53,951 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:53,952 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:54,374 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:54,375 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:54,380 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:54,380 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:54,380 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:54,381 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:54,416 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:30:54,637 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:54,637 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:54,637 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:54,675 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:54,675 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:54,676 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:55,111 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:55,112 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:55,113 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:55,115 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:55,115 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:55,115 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:55,367 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:55,368 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:55,369 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:55,408 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:55,408 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:55,408 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:55,416 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:30:55,417 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:30:55,859 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:55,860 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:55,860 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:55,861 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:55,861 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:55,862 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:56,127 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:56,127 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:56,128 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:56,167 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:56,168 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:56,168 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:56,417 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:30:56,605 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:56,605 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:56,606 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:56,607 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:56,607 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:56,607 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:56,874 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:56,875 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:56,875 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:56,914 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:56,914 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:56,915 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:57,357 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:57,357 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:57,358 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:57,359 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:57,360 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:57,360 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:57,417 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:30:57,417 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:30:57,623 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:57,623 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:57,624 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:57,662 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:57,662 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:57,663 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:58,077 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:58,077 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:58,078 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:58,079 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:58,079 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:58,080 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:58,341 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:58,341 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:58,341 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:58,380 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:58,380 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:58,380 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:58,417 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:30:58,822 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:58,822 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:58,822 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:58,823 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:58,824 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:58,824 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:59,089 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:59,089 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:59,089 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:59,130 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:59,130 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:59,130 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:59,418 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:30:59,418 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:30:59,567 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:59,567 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:59,568 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:59,569 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:59,569 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:59,569 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:59,826 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:59,827 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:59,827 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:30:59,865 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:30:59,866 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:30:59,866 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:00,280 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:00,280 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:00,281 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:00,283 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:00,283 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:00,283 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:00,418 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:00,536 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:00,537 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:00,537 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:00,574 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:00,574 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:00,574 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:00,854 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-25 17:31:00,854 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: stop_status
+2021-10-25 17:31:01,275 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:01,275 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:01,276 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:01,276 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:01,276 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:01,277 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:01,290 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:01,290 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:01,291 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:01,330 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:01,330 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:01,330 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:01,418 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:01,418 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:01,758 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:01,758 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:01,758 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:01,760 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:01,761 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:01,761 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:02,031 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:02,031 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:02,032 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:02,072 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:02,072 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:02,073 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:02,419 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:02,521 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:02,521 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:02,522 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:02,523 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:02,523 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:02,523 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:02,963 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:02,963 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:02,963 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:03,015 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:03,016 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:03,016 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:03,419 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:03,419 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:03,442 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:03,442 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:03,443 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:03,444 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:03,444 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:03,444 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:03,719 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:03,720 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:03,720 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:03,759 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:03,760 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:03,760 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:04,183 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:04,183 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:04,184 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:04,185 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:04,185 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:04,185 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:04,419 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:04,443 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:04,443 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:04,443 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:04,480 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:04,480 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:04,481 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:04,941 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:04,941 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:04,942 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:04,942 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:04,942 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:04,943 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:05,230 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:05,230 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:05,231 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:05,272 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:05,272 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:05,273 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:05,420 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:05,420 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:05,728 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:05,728 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:05,729 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:05,730 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:05,730 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:05,731 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:06,005 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:06,005 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:06,005 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:06,048 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:06,048 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:06,049 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:06,420 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:06,498 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:06,498 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:06,498 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:06,500 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:06,500 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:06,500 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:06,771 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:06,771 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:06,771 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:06,812 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:06,812 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:06,812 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:07,253 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:07,253 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:07,254 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:07,255 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:07,255 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:07,255 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:07,420 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:07,420 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:07,520 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:07,521 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:07,521 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:07,558 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:07,558 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:07,559 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:07,995 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:07,996 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:07,996 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:07,997 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:07,997 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:07,998 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:08,259 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:08,259 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:08,260 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:08,299 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:08,299 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:08,300 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:08,403 DEBUG   SenderThread:71796 [sender.py:send():185] send: stats
+2021-10-25 17:31:08,420 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:08,732 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:08,733 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:08,733 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:08,736 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:08,736 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:08,736 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:09,002 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:09,002 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:09,002 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:09,040 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:09,040 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:09,041 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:09,421 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:09,421 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:09,503 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:09,504 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:09,504 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:09,505 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:09,505 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:09,505 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:09,765 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:09,765 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:09,765 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:09,819 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:09,819 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:09,820 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:10,251 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:10,251 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:10,252 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:10,254 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:10,254 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:10,254 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:10,421 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:10,534 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:10,535 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:10,535 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:10,574 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:10,575 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:10,575 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:10,998 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:10,998 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:10,999 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:11,000 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:11,000 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:11,001 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:11,090 WARNING FileStreamThread:71796 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7f0c24d650d0>>, args: ('https://api.wandb.ai/files/ranuga-d/NLP-with-Disaster-Tweets-V2/16wvnqvk/file_stream',), kwargs: {'json': {'files': {'wandb-summary.json': {'offset': 0, 'content': ['{"Loss": 0.016352496211766265, "_runtime": 35, "_timestamp": 1635163270, "_step": 141, "Val Loss": 0.25590094923973083, "Acc": 98.9, "Val Acc": 74.1}']}, 'wandb-history.jsonl': {'offset': 132, 'content': ['{"Loss": 0.01749827440289664, "_runtime": 33, "_timestamp": 1635163268, "_step": 132}', '{"Val Loss": 0.22837427258491516, "_runtime": 33, "_timestamp": 1635163268, "_step": 133}', '{"Acc": 98.85, "_runtime": 34, "_timestamp": 1635163269, "_step": 134}', '{"Val Acc": 75.5, "_runtime": 34, "_timestamp": 1635163269, "_step": 135}', '{"Loss": 0.01697672950103879, "_runtime": 34, "_timestamp": 1635163269, "_step": 136}', '{"Val Loss": 0.25177574157714844, "_runtime": 34, "_timestamp": 1635163269, "_step": 137}', '{"Acc": 98.9, "_runtime": 34, "_timestamp": 1635163269, "_step": 138}', '{"Val Acc": 74.1, "_runtime": 34, "_timestamp": 1635163269, "_step": 139}', '{"Loss": 0.016352496211766265, "_runtime": 35, "_timestamp": 1635163270, "_step": 140}', '{"Val Loss": 0.25590094923973083, "_runtime": 35, "_timestamp": 1635163270, "_step": 141}']}, 'output.log': {'offset': 0, 'content': ['ERROR 2021-10-25T12:01:10.446977  35%|███▌      | 35/100 [00:27<00:49,  1.32it/s]\n']}}, 'dropped': 0}}
+2021-10-25 17:31:11,421 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:11,422 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:11,429 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:11,429 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:11,430 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:11,470 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:11,471 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:11,471 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:11,907 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:11,908 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:11,908 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:11,909 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:11,909 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:11,909 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:12,189 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:12,189 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:12,190 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:12,231 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:12,231 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:12,231 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:12,422 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:12,667 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:12,668 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:12,668 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:12,669 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:12,669 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:12,669 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:12,939 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:12,940 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:12,940 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:12,980 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:12,980 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:12,980 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:13,409 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:13,410 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:13,410 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:13,411 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:13,412 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:13,412 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:13,423 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:13,423 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:13,676 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:13,676 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:13,677 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:13,717 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:13,717 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:13,717 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:13,756 WARNING FileStreamThread:71796 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7f0c24d650d0>>, args: ('https://api.wandb.ai/files/ranuga-d/NLP-with-Disaster-Tweets-V2/16wvnqvk/file_stream',), kwargs: {'json': {'files': {'wandb-summary.json': {'offset': 0, 'content': ['{"Loss": 0.016352496211766265, "_runtime": 35, "_timestamp": 1635163270, "_step": 141, "Val Loss": 0.25590094923973083, "Acc": 98.9, "Val Acc": 74.1}']}, 'wandb-history.jsonl': {'offset': 132, 'content': ['{"Loss": 0.01749827440289664, "_runtime": 33, "_timestamp": 1635163268, "_step": 132}', '{"Val Loss": 0.22837427258491516, "_runtime": 33, "_timestamp": 1635163268, "_step": 133}', '{"Acc": 98.85, "_runtime": 34, "_timestamp": 1635163269, "_step": 134}', '{"Val Acc": 75.5, "_runtime": 34, "_timestamp": 1635163269, "_step": 135}', '{"Loss": 0.01697672950103879, "_runtime": 34, "_timestamp": 1635163269, "_step": 136}', '{"Val Loss": 0.25177574157714844, "_runtime": 34, "_timestamp": 1635163269, "_step": 137}', '{"Acc": 98.9, "_runtime": 34, "_timestamp": 1635163269, "_step": 138}', '{"Val Acc": 74.1, "_runtime": 34, "_timestamp": 1635163269, "_step": 139}', '{"Loss": 0.016352496211766265, "_runtime": 35, "_timestamp": 1635163270, "_step": 140}', '{"Val Loss": 0.25590094923973083, "_runtime": 35, "_timestamp": 1635163270, "_step": 141}']}, 'output.log': {'offset': 0, 'content': ['ERROR 2021-10-25T12:01:10.446977  35%|███▌      | 35/100 [00:27<00:49,  1.32it/s]\n']}}, 'dropped': 0}}
+2021-10-25 17:31:14,129 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:14,129 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:14,130 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:14,131 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:14,131 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:14,132 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:14,399 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:14,399 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:14,400 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:14,423 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:14,442 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:14,442 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:14,443 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:14,870 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:14,870 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:14,871 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:14,873 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:14,873 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:14,873 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:15,159 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:15,159 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:15,160 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:15,200 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:15,200 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:15,201 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:15,424 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:15,424 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:15,649 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:15,649 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:15,649 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:15,651 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:15,651 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:15,651 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:15,927 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:15,927 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:15,928 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:15,969 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:15,969 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:15,970 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:16,276 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-25 17:31:16,276 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: stop_status
+2021-10-25 17:31:16,424 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:16,847 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:16,847 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:16,848 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:16,848 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:16,848 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:16,848 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:16,849 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:16,849 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:16,849 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:16,849 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:16,849 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:16,849 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:17,134 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:17,134 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:17,135 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:17,136 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:17,136 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:17,136 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:17,399 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:17,399 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:17,399 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:17,424 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:17,424 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:17,437 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:17,437 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:17,438 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:17,863 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:17,863 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:17,863 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:17,864 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:17,865 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:17,865 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:18,128 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:18,128 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:18,128 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:18,170 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:18,171 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:18,171 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:18,425 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:18,624 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:18,624 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:18,624 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:18,626 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:18,626 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:18,626 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:19,078 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:19,078 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:19,079 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:19,117 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:19,117 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:19,117 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:19,425 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:19,425 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:19,549 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:19,550 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:19,550 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:19,551 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:19,552 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:19,552 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:19,807 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:19,808 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:19,808 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:19,844 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:19,844 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:19,845 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:20,275 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:20,275 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:20,276 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:20,277 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:20,277 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:20,277 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:20,425 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:20,531 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:20,531 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:20,531 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:20,570 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:20,570 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:20,571 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:20,988 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:20,988 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:20,992 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:20,992 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:20,992 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:20,992 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:21,248 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:21,248 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:21,248 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:21,287 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:21,287 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:21,288 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:21,426 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:21,426 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:21,724 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:21,725 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:21,725 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:21,726 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:21,726 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:21,727 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:21,983 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:21,983 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:21,984 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:22,023 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:22,023 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:22,023 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:22,426 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:22,464 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:22,465 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:22,465 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:22,466 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:22,467 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:22,467 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:22,725 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:22,725 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:22,725 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:22,763 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:22,764 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:22,764 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:23,205 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:23,205 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:23,209 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:23,211 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:23,212 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:23,212 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:23,426 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:23,427 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:23,465 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:23,465 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:23,465 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:23,504 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:23,504 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:23,504 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:23,917 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:23,917 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:23,917 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:23,919 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:23,920 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:23,920 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:24,176 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:24,177 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:24,177 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:24,216 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:24,216 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:24,216 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:24,427 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:24,641 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:24,641 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:24,641 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:24,642 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:24,642 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:24,642 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:24,897 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:24,897 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:24,897 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:24,936 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:24,937 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:24,937 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:25,364 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:25,364 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:25,367 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:25,368 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:25,368 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:25,368 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:25,427 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:25,427 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:25,628 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:25,628 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:25,628 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:25,666 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:25,667 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:25,667 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:26,095 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:26,095 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:26,095 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:26,097 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:26,097 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:26,097 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:26,357 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:26,357 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:26,358 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:26,397 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:26,398 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:26,398 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:26,428 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:26,840 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:26,840 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:26,840 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:26,841 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:26,841 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:26,842 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:27,110 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:27,110 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:27,111 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:27,300 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:27,300 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:27,301 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:27,428 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:27,428 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:27,749 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:27,749 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:27,754 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:27,755 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:27,755 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:27,755 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:28,003 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:28,003 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:28,003 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:28,040 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:28,040 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:28,041 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:28,428 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:28,492 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:28,493 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:28,493 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:28,495 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:28,495 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:28,495 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:28,750 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:28,751 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:28,751 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:28,788 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:28,788 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:28,789 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:29,212 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:29,212 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:29,213 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:29,214 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:29,214 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:29,214 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:29,429 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:29,429 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:29,464 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:29,465 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:29,465 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:29,503 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:29,503 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:29,503 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:29,926 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:29,926 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:29,930 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:29,930 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:29,931 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:29,931 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:30,194 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:30,194 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:30,194 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:30,233 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:30,233 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:30,233 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:30,429 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:30,655 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:30,655 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:30,655 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:30,657 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:30,657 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:30,657 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:30,911 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:30,911 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:30,912 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:30,950 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:30,950 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:30,951 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:31,386 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:31,386 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:31,387 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:31,387 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:31,388 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:31,389 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:31,429 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:31,429 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:31,639 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:31,639 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:31,639 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:31,676 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:31,676 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:31,677 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:31,849 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-25 17:31:31,849 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: stop_status
+2021-10-25 17:31:32,352 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:32,353 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:32,356 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:32,356 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:32,356 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:32,356 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:32,356 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:32,356 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:32,356 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:32,356 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:32,357 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:32,357 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:32,430 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:32,744 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:32,744 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:32,745 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:32,745 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:32,746 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:32,746 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:32,987 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:32,987 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:32,987 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:33,023 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:33,023 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:33,024 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:33,412 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:33,412 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:33,413 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:33,414 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:33,414 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:33,414 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:33,430 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:33,430 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:33,661 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:33,662 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:33,662 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:33,698 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:33,698 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:33,698 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:34,077 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:34,077 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:34,078 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:34,079 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:34,079 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:34,079 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:34,320 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:34,320 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:34,320 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:34,356 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:34,356 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:34,358 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:34,430 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:34,734 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:34,735 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:34,735 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:34,736 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:34,736 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:34,736 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:35,127 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:35,127 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:35,128 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:35,167 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:35,167 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:35,167 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:35,431 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:35,431 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:35,565 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:35,565 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:35,566 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:35,567 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:35,567 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:35,567 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:35,822 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:35,822 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:35,822 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:35,858 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:35,859 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:35,859 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:36,260 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:36,261 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:36,261 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:36,263 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:36,263 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:36,263 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:36,431 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:36,510 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:36,510 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:36,511 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:36,548 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:36,548 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:36,548 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:36,941 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:36,941 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:36,941 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:36,942 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:36,942 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:36,942 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:37,184 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:37,184 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:37,185 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:37,221 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:37,222 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:37,222 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:37,431 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:37,432 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:37,621 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:37,621 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:37,621 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:37,622 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:37,622 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:37,623 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:37,865 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:37,865 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:37,865 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:37,901 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:37,901 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:37,902 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:38,306 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:38,306 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:38,307 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:38,307 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:38,307 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:38,308 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:38,432 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:38,551 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:38,551 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:38,552 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:38,587 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:38,588 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:38,588 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:38,615 DEBUG   SenderThread:71796 [sender.py:send():185] send: stats
+2021-10-25 17:31:38,965 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:38,966 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:38,966 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:38,967 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:38,967 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:38,967 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:39,212 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:39,212 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:39,213 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:39,249 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:39,249 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:39,250 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:39,432 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:39,432 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:39,626 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:39,627 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:39,627 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:39,628 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:39,628 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:39,629 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:39,870 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:39,871 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:39,871 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:39,906 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:39,907 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:39,907 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:40,296 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:40,297 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:40,297 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:40,298 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:40,298 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:40,298 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:40,432 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:40,542 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:40,543 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:40,543 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:40,578 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:40,579 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:40,579 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:40,984 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:40,984 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:40,985 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:40,986 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:40,986 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:40,986 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:41,228 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:41,229 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:41,229 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:41,265 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:41,265 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:41,265 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:41,433 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:41,433 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:41,668 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:41,669 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:41,669 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:41,670 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:41,670 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:41,671 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:42,052 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:42,052 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:42,053 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:42,089 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:42,089 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:42,089 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:42,433 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:42,499 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:42,499 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:42,499 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:42,501 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:42,501 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:42,501 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:42,745 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:42,745 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:42,745 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:42,781 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:42,782 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:42,782 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:43,172 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:43,173 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:43,173 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:43,174 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:43,174 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:43,175 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:43,421 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:43,422 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:43,422 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:43,433 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:43,434 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:43,459 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:43,459 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:43,459 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:43,861 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:43,862 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:43,862 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:43,864 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:43,864 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:43,864 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:44,122 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:44,122 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:44,122 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:44,161 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:44,161 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:44,161 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:44,434 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:44,594 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:44,594 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:44,594 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:44,596 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:44,596 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:44,596 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:44,859 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:44,859 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:44,860 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:44,899 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:44,900 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:44,900 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:45,306 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:45,306 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:45,306 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:45,307 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:45,307 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:45,307 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:45,434 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:45,434 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:45,569 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:45,569 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:45,569 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:45,607 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:45,608 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:45,608 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:46,010 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:46,010 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:46,010 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:46,012 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:46,012 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:46,012 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:46,250 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:46,250 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:46,251 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:46,286 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:46,286 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:46,287 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:46,434 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:46,698 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:46,698 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:46,698 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:46,700 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:46,700 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:46,701 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:46,965 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:46,966 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:46,966 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:47,003 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:47,003 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:47,004 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:47,353 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-25 17:31:47,354 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: stop_status
+2021-10-25 17:31:47,435 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:47,435 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:47,863 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:47,863 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:47,864 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:47,864 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:47,864 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:47,865 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:47,865 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:47,865 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:47,865 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:47,865 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:47,865 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:47,866 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:48,120 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:48,120 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:48,120 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:48,121 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:48,122 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:48,122 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:48,387 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:48,387 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:48,387 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:48,426 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:48,426 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:48,427 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:48,435 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:48,849 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:48,849 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:48,849 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:48,852 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:48,852 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:48,852 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:49,125 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:49,125 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:49,125 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:49,161 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:49,162 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:49,162 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:49,435 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:49,436 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:49,550 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:49,550 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:49,551 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:49,551 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:49,551 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:49,553 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:49,790 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:49,791 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:49,791 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:49,827 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:49,827 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:49,827 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:50,218 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:50,219 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:50,219 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:50,220 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:50,220 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:50,220 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:50,436 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:50,593 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:50,593 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:50,593 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:50,628 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:50,628 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:50,629 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:51,041 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:51,041 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:51,042 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:51,043 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:51,043 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:51,043 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:51,305 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:51,306 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:51,306 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:51,343 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:51,343 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:51,344 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:51,436 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:51,436 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:51,765 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:51,765 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:51,765 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:51,774 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:51,774 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:51,774 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:52,049 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:52,049 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:52,049 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:52,088 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:52,088 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:52,088 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:52,436 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:52,476 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:52,476 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:52,476 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:52,477 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:52,478 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:52,478 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:52,721 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:52,721 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:52,721 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:52,760 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:52,761 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:52,762 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:53,180 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:53,180 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:53,181 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:53,182 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:53,182 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:53,182 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:53,437 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:53,437 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:53,450 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:53,450 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:53,450 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:53,490 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:53,490 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:53,490 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:53,914 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:53,915 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:53,915 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:53,916 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:53,916 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:53,916 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:54,171 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:54,171 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:54,171 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:54,209 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:54,209 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:54,210 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:54,437 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:54,599 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:54,599 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:54,599 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:54,601 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:54,601 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:54,602 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:54,851 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:54,851 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:54,851 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:54,888 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:54,889 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:54,889 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:55,301 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:55,302 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:55,302 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:55,304 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:55,304 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:55,305 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:55,437 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:55,438 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:55,595 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:55,596 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:55,596 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:55,632 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:55,632 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:55,633 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:56,056 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:56,057 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:56,057 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:56,058 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:56,058 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:56,058 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:56,299 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:56,299 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:56,299 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:56,337 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:56,337 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:56,337 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:56,438 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:56,746 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:56,746 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:56,746 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:56,747 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:56,747 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:56,748 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:57,006 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:57,006 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:57,006 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:57,042 DEBUG   SenderThread:71796 [sender.py:send():185] send: history
+2021-10-25 17:31:57,042 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:31:57,043 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:31:57,065 DEBUG   SenderThread:71796 [sender.py:send():185] send: config
+2021-10-25 17:31:57,438 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:31:57,438 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:31:57,438 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_created():217] file/dir created: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/code/_session_history.ipynb
+2021-10-25 17:31:57,439 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_created():217] file/dir created: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/code
+2021-10-25 17:31:57,585 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: log_artifact
+2021-10-25 17:31:57,585 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: log_artifact
+2021-10-25 17:31:58,033 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:31:58,438 INFO    Thread-8  :71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:32:00,878 INFO    Thread-14 :71796 [upload_job.py:push():95] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/23/dfa41dbc18907a27564da350f69f08
+2021-10-25 17:32:00,972 INFO    Thread-13 :71796 [upload_job.py:push():95] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/96/c6cb2414a04edbbcf3c6471a85dd71
+2021-10-25 17:32:02,802 INFO    SenderThread:71796 [sender.py:send_request_log_artifact():929] logged artifact source-16wvnqvk - {'id': 'QXJ0aWZhY3Q6MzM0OTYzNzU=', 'digest': '9ef0d126947b8a165dee53ce48d8c48c', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2MzkzODI=', 'latestArtifact': None}, 'version': 'latest'}
+2021-10-25 17:32:02,802 DEBUG   SenderThread:71796 [sender.py:send():185] send: telemetry
+2021-10-25 17:32:02,802 DEBUG   SenderThread:71796 [sender.py:send():185] send: exit
+2021-10-25 17:32:02,802 INFO    SenderThread:71796 [sender.py:send_exit():317] handling exit code: 0
+2021-10-25 17:32:02,803 INFO    SenderThread:71796 [sender.py:send_exit():319] handling runtime: 80
+2021-10-25 17:32:02,803 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:32:02,803 INFO    SenderThread:71796 [sender.py:send_exit():329] send defer
+2021-10-25 17:32:02,803 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:02,803 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: defer
+2021-10-25 17:32:02,803 INFO    HandlerThread:71796 [handler.py:handle_request_defer():147] handle defer: 0
+2021-10-25 17:32:02,804 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: defer
+2021-10-25 17:32:02,804 INFO    SenderThread:71796 [sender.py:send_request_defer():338] handle sender defer: 0
+2021-10-25 17:32:02,804 INFO    SenderThread:71796 [sender.py:transition_state():342] send defer: 1
+2021-10-25 17:32:02,805 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: defer
+2021-10-25 17:32:02,805 INFO    HandlerThread:71796 [handler.py:handle_request_defer():147] handle defer: 1
+2021-10-25 17:32:02,902 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: defer
+2021-10-25 17:32:02,903 INFO    SenderThread:71796 [sender.py:send_request_defer():338] handle sender defer: 1
+2021-10-25 17:32:02,903 INFO    SenderThread:71796 [sender.py:transition_state():342] send defer: 2
+2021-10-25 17:32:02,903 DEBUG   SenderThread:71796 [sender.py:send():185] send: stats
+2021-10-25 17:32:02,903 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: defer
+2021-10-25 17:32:02,903 INFO    HandlerThread:71796 [handler.py:handle_request_defer():147] handle defer: 2
+2021-10-25 17:32:02,903 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: defer
+2021-10-25 17:32:02,903 INFO    SenderThread:71796 [sender.py:send_request_defer():338] handle sender defer: 2
+2021-10-25 17:32:02,903 INFO    SenderThread:71796 [sender.py:transition_state():342] send defer: 3
+2021-10-25 17:32:02,904 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: defer
+2021-10-25 17:32:02,904 INFO    HandlerThread:71796 [handler.py:handle_request_defer():147] handle defer: 3
+2021-10-25 17:32:02,904 DEBUG   SenderThread:71796 [sender.py:send():185] send: summary
+2021-10-25 17:32:02,904 INFO    SenderThread:71796 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-25 17:32:02,904 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: defer
+2021-10-25 17:32:02,904 INFO    SenderThread:71796 [sender.py:send_request_defer():338] handle sender defer: 3
+2021-10-25 17:32:02,904 INFO    SenderThread:71796 [sender.py:transition_state():342] send defer: 4
+2021-10-25 17:32:02,904 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: defer
+2021-10-25 17:32:02,904 INFO    HandlerThread:71796 [handler.py:handle_request_defer():147] handle defer: 4
+2021-10-25 17:32:02,905 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: defer
+2021-10-25 17:32:02,905 INFO    SenderThread:71796 [sender.py:send_request_defer():338] handle sender defer: 4
+2021-10-25 17:32:02,909 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:32:03,415 INFO    SenderThread:71796 [sender.py:transition_state():342] send defer: 5
+2021-10-25 17:32:03,416 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:03,416 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: defer
+2021-10-25 17:32:03,416 INFO    HandlerThread:71796 [handler.py:handle_request_defer():147] handle defer: 5
+2021-10-25 17:32:03,416 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: defer
+2021-10-25 17:32:03,416 INFO    SenderThread:71796 [sender.py:send_request_defer():338] handle sender defer: 5
+2021-10-25 17:32:03,416 INFO    SenderThread:71796 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-25 17:32:03,440 INFO    SenderThread:71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:32:03,440 INFO    SenderThread:71796 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/config.yaml
+2021-10-25 17:32:03,440 INFO    SenderThread:71796 [dir_watcher.py:finish():313] scan: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files
+2021-10-25 17:32:03,440 INFO    SenderThread:71796 [dir_watcher.py:finish():327] scan save: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-metadata.json wandb-metadata.json
+2021-10-25 17:32:03,440 INFO    SenderThread:71796 [dir_watcher.py:finish():327] scan save: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/conda-environment.yaml conda-environment.yaml
+2021-10-25 17:32:03,441 INFO    SenderThread:71796 [dir_watcher.py:finish():327] scan save: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log output.log
+2021-10-25 17:32:03,441 INFO    SenderThread:71796 [dir_watcher.py:finish():327] scan save: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/config.yaml config.yaml
+2021-10-25 17:32:03,441 INFO    SenderThread:71796 [dir_watcher.py:finish():327] scan save: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json wandb-summary.json
+2021-10-25 17:32:03,441 INFO    SenderThread:71796 [dir_watcher.py:finish():327] scan save: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/requirements.txt requirements.txt
+2021-10-25 17:32:03,456 INFO    SenderThread:71796 [dir_watcher.py:finish():327] scan save: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/code/_session_history.ipynb code/_session_history.ipynb
+2021-10-25 17:32:03,466 INFO    SenderThread:71796 [sender.py:transition_state():342] send defer: 6
+2021-10-25 17:32:03,466 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: defer
+2021-10-25 17:32:03,466 INFO    HandlerThread:71796 [handler.py:handle_request_defer():147] handle defer: 6
+2021-10-25 17:32:03,471 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: defer
+2021-10-25 17:32:03,471 INFO    SenderThread:71796 [sender.py:send_request_defer():338] handle sender defer: 6
+2021-10-25 17:32:03,471 INFO    SenderThread:71796 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-25 17:32:03,517 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:32:03,517 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:03,620 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:32:03,620 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:03,721 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:32:03,722 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:03,823 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:32:03,823 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:03,926 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:32:03,927 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:04,029 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:32:04,029 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:04,130 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:32:04,131 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:04,233 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:32:04,233 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:04,335 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:32:04,335 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:04,438 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:32:04,438 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:04,501 INFO    Thread-17 :71796 [upload_job.py:push():137] Uploaded file /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/config.yaml
+2021-10-25 17:32:04,540 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:32:04,540 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:04,601 INFO    Thread-18 :71796 [upload_job.py:push():137] Uploaded file /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/wandb-summary.json
+2021-10-25 17:32:04,618 INFO    Thread-19 :71796 [upload_job.py:push():137] Uploaded file /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/requirements.txt
+2021-10-25 17:32:04,643 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:32:04,643 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:04,744 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:32:04,745 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:04,757 INFO    Thread-16 :71796 [upload_job.py:push():137] Uploaded file /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/output.log
+2021-10-25 17:32:04,769 INFO    Thread-15 :71796 [upload_job.py:push():137] Uploaded file /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/conda-environment.yaml
+2021-10-25 17:32:04,846 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:32:04,846 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:04,948 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:32:04,948 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:05,009 INFO    Thread-20 :71796 [upload_job.py:push():137] Uploaded file /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/files/code/_session_history.ipynb
+2021-10-25 17:32:05,050 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:32:05,050 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:05,151 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:32:05,152 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:05,210 INFO    Thread-7  :71796 [sender.py:transition_state():342] send defer: 7
+2021-10-25 17:32:05,211 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: defer
+2021-10-25 17:32:05,211 INFO    HandlerThread:71796 [handler.py:handle_request_defer():147] handle defer: 7
+2021-10-25 17:32:05,211 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: defer
+2021-10-25 17:32:05,211 INFO    SenderThread:71796 [sender.py:send_request_defer():338] handle sender defer: 7
+2021-10-25 17:32:05,253 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:32:05,531 INFO    SenderThread:71796 [sender.py:transition_state():342] send defer: 8
+2021-10-25 17:32:05,531 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:05,532 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: defer
+2021-10-25 17:32:05,532 INFO    HandlerThread:71796 [handler.py:handle_request_defer():147] handle defer: 8
+2021-10-25 17:32:05,532 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: defer
+2021-10-25 17:32:05,532 INFO    SenderThread:71796 [sender.py:send_request_defer():338] handle sender defer: 8
+2021-10-25 17:32:05,532 INFO    SenderThread:71796 [sender.py:transition_state():342] send defer: 9
+2021-10-25 17:32:05,533 DEBUG   SenderThread:71796 [sender.py:send():185] send: final
+2021-10-25 17:32:05,533 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: defer
+2021-10-25 17:32:05,533 DEBUG   SenderThread:71796 [sender.py:send():185] send: footer
+2021-10-25 17:32:05,533 INFO    HandlerThread:71796 [handler.py:handle_request_defer():147] handle defer: 9
+2021-10-25 17:32:05,533 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: defer
+2021-10-25 17:32:05,533 INFO    SenderThread:71796 [sender.py:send_request_defer():338] handle sender defer: 9
+2021-10-25 17:32:05,633 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-25 17:32:05,633 DEBUG   SenderThread:71796 [sender.py:send_request():199] send_request: poll_exit
+2021-10-25 17:32:05,633 INFO    SenderThread:71796 [file_pusher.py:join():182] waiting for file pusher
+2021-10-25 17:32:06,130 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: get_summary
+2021-10-25 17:32:06,168 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: sampled_history
+2021-10-25 17:32:06,169 DEBUG   HandlerThread:71796 [handler.py:handle_request():130] handle_request: shutdown
+2021-10-25 17:32:06,169 INFO    HandlerThread:71796 [handler.py:finish():731] shutting down handler
+2021-10-25 17:32:06,533 INFO    WriterThread:71796 [datastore.py:close():281] close: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/NLP-with-Disaster-Tweets-V2/wandb/run-20211025_173035-16wvnqvk/run-16wvnqvk.wandb
+2021-10-25 17:32:07,128 INFO    SenderThread:71796 [sender.py:finish():1029] shutting down sender
+2021-10-25 17:32:07,129 INFO    SenderThread:71796 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-25 17:32:07,129 INFO    SenderThread:71796 [file_pusher.py:join():182] waiting for file pusher
+2021-10-25 17:32:07,129 INFO    MainThread:71796 [internal.py:handle_exit():78] Internal process exited
